@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>first-blog</title>
-    <url>/jackie-yi/jackie-yi.github.io/2021/10/28/first-blog/</url>
+    <url>/2021/10/28/first-blog/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="1fd10544d79b7ce0f2fdff594f7b54c907c417ac119a8f5d412fe3edcf0a275b">4630436162ade97ba2718b7d0c4b3b63aa2ab1619d9cdbb4bb5fd57226dc61d2</script>
   <div class="hbe hbe-content">
@@ -14,14 +14,14 @@
     </div>
   </div>
 </div>
-<script data-pjax src="/jackie-yi/jackie-yi.github.io/lib/hbe.js"></script><link href="/jackie-yi/jackie-yi.github.io/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>test</tag>
       </tags>
   </entry>
   <entry>
     <title>gggenes画基因结构图</title>
-    <url>/jackie-yi/jackie-yi.github.io/2021/10/24/hello-world/</url>
+    <url>/2021/10/24/hello-world/</url>
     <content><![CDATA[<span id="more"></span>
 <p><strong>gggenes</strong> 是一款基于ggplot2开发的R包，可以很方便的画出下图所示的基因结构图。<br><img src="/img/clipboard.png" style="zoom:75%;" /></p>
 <p><strong>1.</strong> <strong>安装R包</strong></p>
