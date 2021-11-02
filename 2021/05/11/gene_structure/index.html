@@ -69,6 +69,9 @@
 
 
   
+    <script src="/lib/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+  
 
 </head>
 
@@ -79,7 +82,7 @@
       
 
 
-<div class="overlay" style="background: #4d4d4d;background: url('/img/biubiubiu.gif') no-repeat ;"></div>
+<div class="overlay" style="background: #D3D1DC;background: url('/img/biubiubiu.gif') no-repeat ;"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -164,7 +167,7 @@
       
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+  	<div class="overlay js-overlay" style="background: #D3D1DC"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -487,30 +490,22 @@
 
 
 
-  <div id="giteement-ctn"></div>
+
+
+
+<!-- beaudar评论插件 -->
+
   
-    <link rel="stylesheet" href="/lib/default.css">
-    <script src="/lib/giteement.browser.js"></script>
-  
-  <script>
-  <!-- id: "gggenes画基因结构图" -->
-  var giteement = new Giteement({
-    id: '20210511000000',
-    owner: 'jackie1314',
-    repo: 'yilia-plus-demo',
-    backcall_uri: 'https://jackie-yi.gitee..io/yilia-plus-demo',
-    oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
-    oauth: {
-      client_id: '3f4f65a07e12b7d3ded18790d8952e19a3a7e18b89c0e1ef4ea6e183c9bf61c2',
-      client_secret: 'c91229b92dfe9ebcdcf22588460db72539dba2f3d8ce67f167f454274406b70e'
-    },
-  })
-  giteement.render('giteement-ctn')
-  </script>
-
-
-
-
+	<div id="beaudar-comment">
+		<link rel="stylesheet" href="/lib/beaudar.css"> <!--这里是我自己的css文件，如果你没有弄的话，可以不写。-->
+		<script src="https://beaudar.lipk.org/client.js" 
+				repo="https://github.com/jackie-yi/jackie-yi.github.io.git" 
+				issue-term="pathname"
+				label="comment"
+				theme="github-light"
+				crossorigin="anonymous" async>
+			</script>
+	</div>
 
 
 
@@ -570,23 +565,6 @@
 
 
 <!--  -->
-
-<script>
-  /* 标签页标题切换 */
-  var originTitle = document.title;
-  var titleTime;
-  document.addEventListener("visibilitychange", function () {
-    if (document.hidden) {
-      document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
-      clearTimeout(titleTime);
-    } else {
-      document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
-      titleTime = setTimeout(function () {
-        document.title = originTitle;
-      }, 2000);
-    }
-  });
-</script>
 
 
     
